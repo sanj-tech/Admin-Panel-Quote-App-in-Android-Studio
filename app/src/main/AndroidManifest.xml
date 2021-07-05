@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jsstech.quoteappadminpanel">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo_final"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo_final_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.QuoteAppAdminPanel">
+        <activity android:name=".Insert.DeveloperInfo"></activity>
+        <activity android:name=".LoginPanel">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".View.InquiryView" />
+        <activity android:name=".ImagesActivity" />
+        <activity android:name=".ImageInsert" />
+        <activity android:name=".View.VTrust" />
+        <activity android:name=".View.VHealth" />
+        <activity android:name=".View.VHappiness" />
+        <activity android:name=".View.VFrienship" />
+        <activity android:name=".View.VPower" />
+        <activity android:name=".View.VFaith" />
+        <activity android:name=".View.VFailure" />
+        <activity android:name=".View.VRelationship" />
+        <activity android:name=".View.VEducation" />
+        <activity android:name=".View.VPeace" />
+        <activity android:name=".View.VPatience" />
+        <activity android:name=".View.VChange" />
+        <activity android:name=".View.VAttitude" />
+        <activity android:name=".View.VLove" />
+        <activity android:name=".View.VLife" />
+        <activity android:name=".View.VLeadership" />
+        <activity android:name=".View.VPositive" />
+        <activity android:name=".View.VSuccess" />
+        <activity android:name=".View.VInspirational" />
+        <activity android:name=".View.VMotivational" />
+        <activity android:name=".View.QuotesList" />
+        <activity android:name=".Insert.QuotesInsert" />
+        <activity android:name=".View.AboutViewData" />
+        <activity android:name=".View.AboutView" />
+        <activity android:name=".Insert.AboutInsert" />
+        <activity
+            android:name=".View.ContactViewData"
+            android:parentActivityName=".View.ContactView" />
+        <activity android:name=".View.ContactView" />
+        <activity
+            android:name=".Insert.ContactInsert"
+            android:label="Insert Contact"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".MainActivity"></activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/shape"
+    android:orientation="vertical"
+    tools:context=".Insert.ContactInsert">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="@font/antic_didone"
+        android:padding="10dp"
+
+        android:text="Insert ContactUS"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/insert_contact1"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:drawablePadding="15dp"
+        android:fontFamily="@font/armata"
+        android:text="9876543210" />
+
+    <EditText
+        android:id="@+id/insert_contact2"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:drawablePadding="15dp"
+        android:fontFamily="@font/armata"
+        android:text="1234567890" />
+
+    <EditText
+        android:id="@+id/insert_email"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:drawablePadding="15dp"
+        android:fontFamily="@font/armata"
+        android:text="info@quotesapp.com" />
+
+    <EditText
+        android:id="@+id/insert_website"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:drawablePadding="15dp"
+        android:fontFamily="@font/armata"
+        android:text="http://www.example.com" />
+
+    <EditText
+        android:id="@+id/insert_address"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:drawablePadding="15dp"
+        android:fontFamily="@font/armata"
+        android:text="@string/contactAddress" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+
+        <ProgressBar
+            android:id="@+id/contactUSProgress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:elevation="50dp"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/insert_button"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+
+            android:text="Insert"
+            android:background="@drawable/button_background"
+            android:textSize="15sp"
+            android:textColor="#ffffff"/>
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/insert_viewdata_button"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:background="@drawable/button_background"
+        android:text="View Data" />
+
+
+</LinearLayout>

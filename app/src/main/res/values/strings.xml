@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Quotes App Admin Panel</string>
+
+    <string name="open">open</string>
+    <string name="close">close</string>
+
+
+    <string name="contactAddress">20952, Frederick Road, Germantown MD 20876, Maryland</string>
+
+    <string-array name="quotes_category">
+        <item>Motivation</item>
+        <item>Inspiration</item>
+        <item>Success</item>
+        <item>Positive</item>
+        <item>Leadership</item>
+        <item>Life</item>
+        <item>Love</item>
+        <item>Attitude</item>
+        <item>Change</item>
+        <item>Patience</item>
+        <item>Peace</item>
+        <item>Education</item>
+        <item>Relationship</item>
+        <item>Failure</item>
+        <item>Faith</item>
+        <item>Power</item>
+        <item>Friendship</item>
+        <item>Happiness</item>
+        <item>Health</item>
+        <item>Trust</item>
+    </string-array>
+
+    <string name="line1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</string>
+    <string name="line2">tially unchanged. It was popularised in the 1960s with the release of Letraset sheets contai</string>
+    <string name="line3">ing Lorem Ipsum is that it has a moreorless normal distribution of letters, as opposed to using Content here, content here, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for lorem ipsum will uncover many web sites still in their infancy.</string>
+    <string name="line4">ing it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</string>
+    <string name="line5">standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompa</string>
+
+</resources>

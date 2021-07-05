@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFAF0"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <TextView
+        android:id="@+id/viewInquiry_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alegreya_sans_sc"
+        android:padding="5dp"
+        android:text="Name"
+        android:textColor="#778899"
+        android:textSize="18sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f00" />
+
+    <TextView
+        android:id="@+id/viewInquiry_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alegreya_sans_sc"
+        android:padding="5dp"
+        android:text="Email"
+        android:textColor="#778899"
+        android:textSize="18sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f00" />
+
+    <TextView
+        android:id="@+id/viewInquiry_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alegreya_sans_sc"
+        android:padding="5dp"
+        android:text="Contact"
+        android:textColor="#778899"
+        android:textSize="18sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f00" />
+
+    <TextView
+        android:id="@+id/viewInquiry_ask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alegreya_sans_sc"
+        android:padding="5dp"
+        android:text="Ask Anything"
+        android:textColor="#778899"
+        android:textSize="18sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f00" />
+
+    <TextView
+        android:id="@+id/viewInquiry_feedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alegreya_sans_sc"
+        android:padding="5dp"
+        android:text="Feedback"
+        android:textColor="#778899"
+        android:textSize="18sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f00" />
+
+
+</LinearLayout>

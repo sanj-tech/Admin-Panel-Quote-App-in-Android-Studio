@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFAF0"
+    android:orientation="vertical"
+    tools:context=".Insert.QuotesInsert">
+
+    <EditText
+        android:id="@+id/qt_cat_id"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:fontFamily="@font/adamina"
+        android:hint="CategoryId"
+        android:inputType="number" />
+
+    <Spinner
+        android:id="@+id/qt_cat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp" />
+
+    <EditText
+        android:id="@+id/qt_qt"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:fontFamily="@font/adamina"
+        android:gravity="bottom"
+        android:hint="Quotes"
+        android:inputType="textMultiLine" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+
+        <ProgressBar
+            android:id="@+id/qt_pro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:elevation="100dp"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/insert_quote_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/arvo"
+            android:text="Insert Quote" />
+
+    </FrameLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/arvo"
+        android:onClick="viewQuoteList"
+        android:text="View Quote List" />
+
+</LinearLayout>

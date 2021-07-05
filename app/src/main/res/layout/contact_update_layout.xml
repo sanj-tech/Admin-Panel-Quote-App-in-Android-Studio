@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF8DC"
+    android:padding="15dp"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_margin="10dp"
+        android:background="@drawable/edit_background"
+        android:padding="10dp"
+        android:id="@+id/update_num1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:drawableLeft="@drawable/ic_contacts_black_24dp"
+        android:drawablePadding="10dp"
+        android:hint="Num 1"
+        android:inputType="number" />
+
+    <EditText
+        android:layout_margin="10dp"
+        android:background="@drawable/edit_background"
+        android:padding="10dp"
+        android:id="@+id/update_num2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_contacts_black_24dp"
+        android:drawablePadding="10dp"
+        android:hint="Num 2"
+        android:inputType="number" />
+
+    <EditText
+        android:layout_margin="10dp"
+        android:background="@drawable/edit_background"
+        android:padding="10dp"
+        android:id="@+id/update_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/email"
+        android:drawablePadding="10dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
+
+
+    <EditText
+        android:layout_margin="10dp"
+        android:background="@drawable/edit_background"
+        android:padding="10dp"
+        android:id="@+id/update_website"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/website1"
+        android:drawablePadding="10dp"
+        android:hint="Website"
+        android:inputType="text" />
+
+
+    <EditText
+        android:layout_margin="10dp"
+        android:background="@drawable/edit_background"
+        android:padding="10dp"
+        android:id="@+id/update_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_location_on_black_24dp"
+        android:drawablePadding="10dp"
+        android:hint="Address"
+        android:inputType="text" />
+
+
+    <Button
+        android:id="@+id/update_button"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/button_background"
+        android:text="Update User" />
+
+    <Button
+        android:id="@+id/delete_button"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:textColor="#ffffff"
+        android:background="@drawable/button_background"
+        android:text="Delete User" />
+
+</LinearLayout>

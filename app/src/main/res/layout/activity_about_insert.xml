@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:background="@drawable/shape"
+    android:padding="10dp"
+    tools:context=".Insert.AboutInsert">
+
+    <EditText
+        android:id="@+id/abotUsLine1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:fontFamily="@font/cantarell"
+        android:hint="About us line 1"
+        android:inputType="textMultiLine"
+        android:text="@string/line1" />
+
+    <EditText
+        android:id="@+id/abotUsLine2"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:fontFamily="@font/cantarell"
+        android:hint="About us line 2"
+        android:inputType="textMultiLine"
+        android:text="@string/line2" />
+
+    <EditText
+        android:id="@+id/abotUsLine3"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:fontFamily="@font/cantarell"
+        android:hint="About us line 3"
+        android:inputType="textMultiLine"
+        android:text="@string/line3" />
+
+    <EditText
+        android:id="@+id/abotUsLine4"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:fontFamily="@font/cantarell"
+        android:hint="About us line 4"
+        android:inputType="textMultiLine"
+        android:text="@string/line4" />
+
+    <EditText
+        android:id="@+id/abotUsLine5"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:fontFamily="@font/cantarell"
+        android:hint="About us line 5"
+        android:inputType="textMultiLine"
+        android:text="@string/line5" />
+
+    <FrameLayout
+        android:layout_width="381dp"
+        android:layout_height="114dp"
+        android:layout_marginTop="30dp">
+
+        <ProgressBar
+            android:id="@+id/aboutProg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:elevation="100dp"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/aboutInsertButton"
+            android:layout_width="141dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_background"
+            android:fontFamily="@font/arvo"
+            android:text="Insert AboutUS"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+
+            />
+    </FrameLayout>
+
+    <Button
+        android:layout_width="152dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+
+        android:background="@drawable/button_background"
+        android:fontFamily="@font/arvo"
+        android:onClick="openAboutViewData"
+        android:text="View AboutUS"
+        android:textColor="#ffffff"
+        android:textSize="15sp" />
+
+
+</LinearLayout>
